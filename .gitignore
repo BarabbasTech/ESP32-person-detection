@@ -1,0 +1,55 @@
+# Build directory
+build/
+
+# IDE directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ESP-IDF specific
+managed_components/
+dependencies.lock
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Binary files
+*.bin
+*.hex
+*.list
+*.lst
+
+# Misc
+.DS_Store
+Thumbs.db
